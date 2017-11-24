@@ -1,0 +1,45 @@
+body{
+  background-color: #dddddd;
+  color: #85144b;
+  margin : 0;
+}
+
+section {
+  max-width: : 46em;
+  margin-top: 200 ;
+  margin-right: 50;
+  margin-bottom: 0;
+  margin-left: 50;
+}
+
+header{
+  background-color: : #708090;
+  color: #dddddd;
+  padding: 6em;
+}
+
+.content-container{
+max-width: 500px;
+margin: 0 auto;
+}
+.newheader{
+  background-color: #000;
+  position: relative;
+}
+.newheader::after {
+  content:" ";
+  display: block;
+  width: 130px;
+  height: 130px;
+  transform: translateX(-50%) rotate(45deg);
+  position: absolute;
+  background: #000;
+  left: 50%;
+  bottom: -14.5%;
+}
+
+footer{
+  background-color: : #708090;
+  color: #dddddd;
+  padding: 6em;
+}
